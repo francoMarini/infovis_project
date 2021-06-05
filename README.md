@@ -34,4 +34,5 @@ Il progetto è stato testato e viene visualizzato correttamente sui seguenti bro
 - **Google Chrome**, Versione 91.0.4472.77 (Build ufficiale) (a 64 bit)
 - **Microsoft Edge**, Versione 91.0.864.41 (Build ufficiale) (64 bit)
 
-## Demo
+## Anteprima
+![Anteprima Progetto](https://github.com/francoMarini/infovis_project/blob/master/img/screenshot.JPG)
