@@ -5,7 +5,7 @@ var step=0
 
 var scaleY= d3.scaleLinear()
 scaleY.domain([0,900])
-scaleY.range([25,window.innerHeight-200])
+scaleY.range([35,window.innerHeight-200])
 
 var scaleX= d3.scaleLinear()
 scaleX.domain([0,9])
@@ -84,7 +84,7 @@ function disegnaBalene(){
 function readFileJson(){
     return $.ajax({
     type: 'GET',
-    url: 'http://localhost:8080/data/dataset.json',
+    url: '/data/dataset.json',
     async: false,
     dataType: 'json',
     data: { action : 'getList' },
