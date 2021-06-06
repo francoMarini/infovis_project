@@ -19,9 +19,9 @@ body {
 
 blockquote {
 	font-weight: 100;
-	font-size: 1.2rem;
+	font-size: 1.1rem;
 	max-width: 600px;
-	line-height: 1.2;
+	line-height: 1.0;
 	position: relative;
 	margin: 0;
 	padding: .5rem;
