@@ -8,7 +8,7 @@ Usa le scale d3.js per mappare l'intervallo dei valori delle variabili (che è a
 
 
 ## Sviluppo in locale
-Per visualizzare correttamente il progetto, è necessario creare un server locale sulla directory di lavoro. 
+Per visualizzare correttamente il progetto, è necessario creare un server locale sulla directory di lavoro. \
 Una volta posizionati nella cartella corrente, eseguire da terminale il seguente comando:
 ```
 python3 -m http.server PORTA
