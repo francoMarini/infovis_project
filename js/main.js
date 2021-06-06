@@ -47,7 +47,6 @@ function spostamento() {
 
   if (flag==1){
     for (let index = 0; index < 10; index++){
-    console.log(flag)
       respira(index, scaleX(index))
     }
     setTimeout(function() {
