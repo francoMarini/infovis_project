@@ -5,11 +5,11 @@ var step=0
 
 var scaleY= d3.scaleLinear()
 scaleY.domain([0,900])
-scaleY.range([15,530])
+scaleY.range([25,window.innerHeight-200])
 
 var scaleX= d3.scaleLinear()
 scaleX.domain([0,9])
-scaleX.range([50,1350])
+scaleX.range([50,window.innerWidth-150])
 
 var delayInMilliseconds = 1000;  //1 secondo
 
