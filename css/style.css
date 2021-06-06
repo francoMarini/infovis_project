@@ -8,8 +8,8 @@ html, body {
 body {
 	font-family: 'Special Elite', cursive;
 	background-image: url("../img/mare.jpg");
-  background-repeat: no-repeat; /* Do not repeat the image */
-  background-size: cover;
+  	background-repeat: no-repeat; /* Do not repeat the image */
+  	background-size: cover;
 	color: #3f3f5a;
 	display: flex;
 	flex-direction: column;
