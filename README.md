@@ -11,17 +11,11 @@ Usa le scale d3.js per mappare l'intervallo dei valori delle variabili (che è a
 Per visualizzare correttamente il progetto, è necessario creare un server locale sulla directory di lavoro. 
 Una volta posizionati nella cartella corrente, eseguire da terminale il seguente comando:
 ```
-python3 -m http.server 8080
+python3 -m http.server PORTA
 ```
 Dopodiché è necessario aprire il browser e digitare:
 ```
-http://localhost:8080
-```
-
-Nel caso in cui si preferisse utilizzare una *porta* diversa, bisogna modificare la *riga 88* all'interno del file *'js/main'* nel seguente modo:
-
-```
-url: 'http://localhost:PORTA/data/dataset.json',
+http://localhost:PORTA
 ```
 sostituendo *'PORTA'* con il numero della porta che si vuole utilizzare.
 
