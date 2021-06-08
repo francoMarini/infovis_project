@@ -2,9 +2,14 @@ var data= readFileJson().config
 
 // Considero 3 step: 0,1,2
 var step=0
+var maxValue=0
 
+for (let index = 0; index < 10; index++) 
+   maxValue= Math.max(maxValue, data[index].x, data[index].y, data[index].z)
+
+console.log(maxValue)
 var scaleY= d3.scaleLinear()
-scaleY.domain([0,900])
+scaleY.domain([0,maxValue])
 scaleY.range([35,window.innerHeight-200])
 
 var scaleX= d3.scaleLinear()
